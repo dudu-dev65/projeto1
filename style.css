@@ -38,7 +38,7 @@ section#Noticias{
 section#noticias ul li{
   list-style:none;
   width: 350px;
-  height: 350px;
+  height: 400px;
  
 }
 section#noticias img{
@@ -75,9 +75,19 @@ section#noticias ul li a                {
        text-align: center;
        font-size: 19px;
        color: black;
-       background: blue;
+       background: white;
        display: block;
        padding: 5px;
+
+
+
+
+}
+section#projetos img{
+
+text-align: center;
+width: 100%;
+
 
 
 
