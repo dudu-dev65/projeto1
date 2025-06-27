@@ -5,7 +5,6 @@ header{
 	align-items: center;
 	justify-content: space-around;
 	border: 1px solid black;
-    
 }
 header nav ul{
 	display: flex;
@@ -26,79 +25,74 @@ header img{
 }
 section#banner{
 	height: 350px;
-	background: black;
+	background: blue;
 }
-section#Noticias{
+section#noticias{
 	width: 1100px;
-      height:auto;
-      margin: 0 auto;
-     
-	
+	height: auto;
+	margin: 0 auto;
+}
+section#noticias ul{
+    display:flex;
+    flex-wrap: wrap;
 }
 section#noticias ul li{
-  list-style:none;
-  width: 350px;
-  height: 400px;
- 
+	list-style:none;
+	width: 350px;
+	height: 350px;
+    margin: 5px;
 }
 section#noticias img{
-text-align: center;
-height: 150px;
-width: 50%;
-
+	text-align: center;
+	height: 150px;
+	width: 100%;
 }
 section#noticias .categoria{
-background: black;
-color: #fff;
-display: block;
-padding: 5px 0;
-text-align: center;
+	text-align: center;
+	background: #900;
+	color: #fff;
+	display: block;
+	padding: 5px 0;
 }
 section#noticias h2{
-font-size: 35px;
-color: #333333;
-text-align: center;
+	font-size: 35px;
+	color: #333333;
+	text-align: center;
 }
 section#noticias h3{
-text-align: center;
-font-size: 35px;
-font-family: arial;
-margin: 25px 0;
-text-transform: uppercase;
+	text-align: center;
+	font-size: 35px;
+	font-family: Arial;
+	margin: 25px 0;
+	text-transform: uppercase;
 }
- body{
-background: white;
-
+section#noticias ul li a{
+    text-align: center;
+    font-size: 19px;
+    color:white;
+    background: red;
+    display: block;
+    padding: 5px 0;
 }
-
-section#noticias ul,  li, a      {
-       text-align: center;
-     
-       font-size: 19px;
-       color: black;
-       background: white;
-       display: block;
-       padding: 5px;
-       color: black;
-       
-       
-
-
-
-
+section#noticias ul li a:hover{
+    background:blue;
 }
-section#projetos img, ul{
-
-
-width: 100%;
-display: block;
-margin: 0 auto;
-display: flex;
-align-items: center;
-
-
-
-
+section#noticias ul li p{
+    text-align: center;
+    margin: 15px 0;
 }
-
-
+section#projetos ul{
+    display:flex;
+    justify-content:center;
+    padding: 0;
+    list-style-type: none;
+}
+section#projetos li{
+    margin-right:20px;
+}
+section#projetos img{
+    width: 300px;
+    height: 300px;
+    object-fit:cover;
+}
+    
